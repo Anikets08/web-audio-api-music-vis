@@ -1,3 +1,12 @@
-# Web Audio API
+# Audio Visualizations using Web Audio API
 
-> Web Audio API has some awesome usage. While exploring i found this MDN Docs https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API and tried making it work with React Js. Will be commiting more ways of Visualizations of Audio in future. 
+
+> MDN Docs https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
+
+This is a GitHub repository that showcases audio visualizations using Web Audio API in React Js. Web Audio API is a powerful JavaScript API for processing and synthesizing audio in web applications. With Web Audio API, you can manipulate audio data in real-time, creating audio effects, synthesizing sound, analyzing audio, and much more.
+
+I'll keep on updaing this repository where you will find some different ways for Visualizing Audio.
+
+
+
+
