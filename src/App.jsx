@@ -3,11 +3,7 @@ import "./App.css";
 
 import AudioContext from "./AudioFunc/AudioContext";
 import autoCorrelate from "./AudioFunc/AutoCorrelate";
-import {
-  noteFromPitch,
-  centsOffFromPitch,
-  getDetunePercent,
-} from "./AudioFunc/Helpers";
+import { noteFromPitch, centsOffFromPitch } from "./AudioFunc/Helpers";
 import Music from "./assets/music.mp3";
 
 const audioCtx = AudioContext.getAudioContext();
@@ -70,7 +66,7 @@ function App() {
       ></audio>
 
       <div className="h-screen w-full flex flex-col items-center justify-center bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
-        <div className="h-[900px] w-[800px] bg-white rounded-3xl relative">
+        <div className="h-[600px] w-[800px] bg-white rounded-3xl relative">
           <img
             src="https://images.unsplash.com/photo-1678008583224-cd4f9582ef37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
             alt=""
@@ -127,7 +123,7 @@ function App() {
               .map((item, index) => {
                 return (
                   <div
-                    className="w-7 max-h-[600px] rounded-md bg-slate-300 opacity-30"
+                    className="w-7 max-h-[300px] rounded-md bg-slate-300 opacity-30"
                     style={{
                       height: `${Math.floor(
                         (Math.random() * pitch) / pitchScale
